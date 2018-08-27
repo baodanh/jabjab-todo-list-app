@@ -1,0 +1,79 @@
+/*auto
+google-green: #008744;
+google-blue: #0057e7;
+google-red: #d62d20;
+google-yellow: #ffa700;
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  /*background-color: #eee;*/
+  background: url(imgs/background-nha-trang-4.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.container {
+  max-width: 690px;
+  margin: 0 auto;
+}
+.todo {
+  margin-top: 2rem;
+  padding: 2rem 4rem;
+  border-radius: 4px;
+  /*background: #1D1D2C;*/
+  width: 100%;
+  min-width: 480px;
+  max-height: 600px;
+  color: #fff;
+  /*overflow: scroll;*/
+  overflow: hidden;
+}
+
+/* HEADER  */
+.todo__header {
+  padding: 1rem 0;
+}
+.todo__title {
+  margin: 1rem;
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+/* THE BOX */
+.todo__input {
+  width: 100%;
+  border-radius: 4px;
+  padding: 1rem 1.2rem;
+  font-size: 1rem;
+  border: none;
+  outline: none;
+}
+
+/* THE LIST */
+.todo__item {
+  list-style-type: none;
+  padding: 1rem 1.2rem;
+  border-bottom: 2px solid #ffa700;
+  border-radius: 6px;
+}
+.todo__item:hover {
+  cursor: pointer;
+  background: hsla(0,0%,100%,.1);
+  transition: transform 5s linear;
+}
+.done {
+  text-decoration: line-through;
+  opacity: .6;
+  width: 70%;
+  font-size: .7rem;
+  margin: 0 auto;
+  transition: 5s all ease;
+}
