@@ -51,7 +51,7 @@ function toggleDone () {
 toggleDone();
 
 // MORE FUNCTIONALITIES
-// - Bring the newly added todo to the top
 // - Only scroll the list
 // - Add the "X" to mark as done
+// - Bring the done to the end of the list
 // - Add audio
